@@ -3,9 +3,9 @@ require 'formula'
 class Builder < Formula
   homepage 'https://github.com/hybris/homebrew-builder'
   head 'https://github.com/hybris/homebrew-builder'
-  url 'https://github.com/hybris/homebrew-builder/raw/master/builder-sdk-cli/builder.tgz'
+  url 'file://usr/local/Library/Taps/hybris/homebrew-builder/builder-sdk-cli'
   version '0.0.1'
-  sha1 'b8bdf4d1b5b6dc6be5953a83537b68f11950bf3d'
+  sha1 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
     
   depends_on :arch => :x86_64
 
