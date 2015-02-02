@@ -5,7 +5,7 @@ class Builder < Formula
   head 'https://github.com/hybris/homebrew-builder'
   url 'file:///usr/local/Library/Taps/hybris/homebrew-builder/builder-sdk-cli/builder.tgz'
   version '1.4-SNAPSHOT'
-  sha1 '58bc6a31a550286b653562aae5cd94be125c35f4'
+  sha1 '807f1dc6f42aeb2581a7b97b16f6a5a51c95ebb1'
     
   depends_on :arch => :x86_64
 
