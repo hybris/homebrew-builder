@@ -49,7 +49,8 @@ brew reinstall builder
 /usr/local/Cellar/builder/X.X.X: 2 files, 32K, built in 2 seconds
 ```
 
-C)
+C)<br>
+
 In some cases (if you have already installed the builder-cli tool) you get a notice from brew that you have to delete builder-cli first and reinstall again.
 ```
 brew reinstall builder
