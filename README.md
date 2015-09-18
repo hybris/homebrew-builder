@@ -77,6 +77,8 @@ Possible conflicting files are:
 
 In this case:
 ```
+rm '/usr/local/bin/builder'
+
 brew reinstall builder
 ==> Reinstalling hybris/builder/builder
 ==> Downloading https://github.com/hybris/builder-cli/blob/master/dist/homebrew-builder/builder.tgz?raw=true
