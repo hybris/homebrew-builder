@@ -1,7 +1,7 @@
 require 'formula'
 
 class Builder < Formula
-  homepage 'https://github.com/SAP/builder-cli/'
+  homepage 'https://github.com/hybris/builder-cli/'
   head 'https://github.com/hybris/builder-cli/blob/master/dist/homebrew-builder/builder.tgz?raw=true'
   url  'https://github.com/hybris/builder-cli/blob/master/dist/homebrew-builder/builder.tgz?raw=true'
   version '2.1.3'
