@@ -1,20 +1,21 @@
 require 'formula'
 
 class Builder < Formula
-  homepage 'https://github.com/hybris/homebrew-builder'
-  head 'https://github.com/hybris/homebrew-builder'
-  url 'file:///usr/local/Library/Taps/hybris/homebrew-builder/builder-sdk-cli/builder.tgz'
-  version '2.0.0'
-  sha1 '574b6554028b1bff268e10f3f8f55461b668f7ed'
+    homepage 'https://github.com/hybris/builder-cli/tree/feature/homebrew/dist/homebrew-builder'
+    head 'https://github.com/hybris/builder-cli/blob/feature/homebrew/dist/homebrew-builder/builder.tgz?raw=true'
+    url  'https://github.com/hybris/builder-cli/blob/feature/homebrew/dist/homebrew-builder/builder.tgz?raw=true'
+    version '2.1.3'
+    sha1 '3ece0cca420609e24a7afc9cee54aa895c2caefd'
     
-  depends_on :arch => :x86_64
-
-  def install
-      bin.install 'builder'
-  end
-
-  test do
+    depends_on :arch => :x86_64
+    
+    def install
+        bin.install 'builder'
+    end
+    
+    test do
     system "#{bin}/builder"
-  end
 end
+end
+
 
