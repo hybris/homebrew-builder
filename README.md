@@ -38,7 +38,7 @@ B)
 Warning: hybris/builder/builder-X.X.X already installed
 ```
 
-...could be solved be reinstall the builder:
+...could be solved by reinstall the builder:
 
 ```
 brew reinstall builder
