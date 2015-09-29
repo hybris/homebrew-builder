@@ -13,7 +13,7 @@ How to use:
 builder
 ```
 
-For more information please take a look to the <a href="https://devportal.yaas.io/gettingstarted/createabuildermodule/index.html">documenation</a>
+For more information please take a look to the <a href="https://devportal.yaas.io/gettingstarted/createabuildermodule/index.html">documenation</a>.
 
 ##Possible problems like...
 
