@@ -44,16 +44,11 @@ Warning: hybris/builder/builder-X.X.X already installed
 
 ```
 brew reinstall builder
-==> Reinstalling hybris/builder/builder
-==> Downloading https://github.com/hybris/builder-cli/blob/master/dist/homebrew-builder/builder.tgz?raw=true
-==> Downloading from https://raw.githubusercontent.com/SAP/builder-cli/master/dist/homebrew-builder/builder.tgz
-######################################################################## 100,0%
-/usr/local/Cellar/builder/X.X.X: 2 files, 32K, built in 2 seconds
 ```
 
 C)<br>
 
-In some cases (if you have already installed the builder-cli tool) you get a notice from brew that you have to delete builder-cli first and reinstall again.
+In some cases (if you have already installed the builder-cli tool) you get a notice from brew that you have to delete builder cli first and reinstall again.
 ```
 brew reinstall builder
 ==> Reinstalling hybris/builder/builder
@@ -78,13 +73,9 @@ Possible conflicting files are:
 /usr/local/Cellar/builder/2.1.3: 2 files, 32K, built in 2 seconds
 ```
 
-In this case:
+In this case, please run the following commands:
 ```
 rm '/usr/local/bin/builder'
 
 brew reinstall builder
-==> Reinstalling hybris/builder/builder
-==> Downloading https://github.com/hybris/builder-cli/blob/master/dist/homebrew-builder/builder.tgz?raw=true
-Already downloaded: /Library/Caches/Homebrew/builder-2.1.3.tgz
-/usr/local/Cellar/builder/2.1.3: 2 files, 32K, built in 2 seconds
 ```
