@@ -13,7 +13,9 @@ How to use:
 builder
 ```
 
-Possible Problems like...
+For more information please take a look to the <a href="https://devportal.yaas.io/gettingstarted/createabuildermodule/index.html">documenation</a>
+
+##Possible problems like...
 
 A)
 ```
@@ -27,7 +29,7 @@ Archive: /Library/Caches/Homebrew/builder-1.4-SNAPSHOT.tgz
 To retry an incomplete download, remove the file above.
 ```
 
-...could be solved by running the following:
+...could be solved by running the following command:
 
 ```
 brew cleanup
@@ -38,7 +40,7 @@ B)
 Warning: hybris/builder/builder-X.X.X already installed
 ```
 
-...could be solved by reinstall the builder:
+...could be solved by reinstall the builder cli:
 
 ```
 brew reinstall builder
@@ -86,6 +88,3 @@ brew reinstall builder
 Already downloaded: /Library/Caches/Homebrew/builder-2.1.3.tgz
 /usr/local/Cellar/builder/2.1.3: 2 files, 32K, built in 2 seconds
 ```
-
-
-For more information please take a look to the <a href="https://devportal.yaas.io/tools/builder/index.html#HowtoCreateaUIModuleUsingtheBuilderSDKCLI">documenation</a>
