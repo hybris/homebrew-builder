@@ -5,7 +5,7 @@ class Builder < Formula
   head 'https://github.com/hybris/builder-cli/blob/master/dist/homebrew-builder/builder.tgz?raw=true'
   url  'https://github.com/hybris/builder-cli/blob/master/dist/homebrew-builder/builder.tgz?raw=true'
   version '3.0.4'
-  sha1 '43306138e3bf93f53a50073307d28117be14697d'
+  sha256 'dd00a23e0156146b646e027212ff83d701890bb804e4ede4c664e9802597108e'
 
   def install
       bin.install 'builder'
