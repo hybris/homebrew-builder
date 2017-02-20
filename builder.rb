@@ -4,8 +4,8 @@ class Builder < Formula
   homepage 'https://github.com/SAP/builder-cli/tree/master/dist/homebrew-builder'
   head 'https://github.com/hybris/builder-cli/blob/master/dist/homebrew-builder/builder.tgz?raw=true'
   url  'https://github.com/hybris/builder-cli/blob/master/dist/homebrew-builder/builder.tgz?raw=true'
-  version '3.16.0'
-  sha256 '615877ba4209afb672edcb0e967d795e2b4825879ab14b25de3bdf6b3cc8ef94'
+  version '3.17.0'
+  sha256 '83d1cdee4ccab6459a477dff32c1aff0a357061dee0f269c1983da58883071fe'
 
   def install
       bin.install 'builder'
